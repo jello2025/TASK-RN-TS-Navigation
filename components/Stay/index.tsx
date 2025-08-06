@@ -1,8 +1,10 @@
-import { StyleSheet, Text, View } from "react-native";
 import React, { useState } from "react";
-import Searchbar from "@/component/Searchbar";
-import Line from "@/component/Line";
-import StaysList from "@/component/StaysList";
+import { StyleSheet, Text, View } from "react-native";
+
+import Line from "@/components/Line";
+import StaysList from "@/components/Stay/StaysList";
+import Searchbar from "@/components/Search/Searchbar";
+
 import stays from "@/data/stays";
 
 const StayIndex = () => {

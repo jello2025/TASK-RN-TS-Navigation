@@ -1,5 +1,5 @@
-import { DimensionValue, StyleSheet, Text, View } from "react-native";
 import React from "react";
+import { DimensionValue, StyleSheet, View } from "react-native";
 
 const Line = ({ width, color }: { width: DimensionValue; color: string }) => {
   return (
