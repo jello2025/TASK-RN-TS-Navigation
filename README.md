@@ -39,7 +39,11 @@ Inside the app/ folder, create the necessary folders and files to enable the use
 - The active tab should be visually highlighted so the user knows which tab they are currently on.
 - Pay attention to nested headers and screen titles — we don’t want to accidentally break the whole app بكبره 😅.
 
-Good Luck! 🤞😉
+### Desired Outcome:
+https://github.com/user-attachments/assets/c0a7096a-9db5-4571-bb2a-5a716ad946bd
+
+
+**Good Luck! 🤞😉**
 
 ### Resources
 1. [Notion](https://www.notion.so/10-Navigation-1c9f3e92b8f680ea8e8af4ccb8ab2964?source=copy_link) 😀
