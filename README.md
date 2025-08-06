@@ -14,6 +14,7 @@ Please follow the instructions below to begin your journey of solving the **Pand
    This will install all the magic files (i.e., node_modules).
 
 ‼️ Before Writing Any Code
+
 3. TAKE A LOOK at the project — explore it and read through the folder and file structure inside:
    app/
    components/
