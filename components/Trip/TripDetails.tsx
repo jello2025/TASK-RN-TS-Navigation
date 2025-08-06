@@ -7,7 +7,6 @@ const TripDetails = () => {
   const trip = trips[0];
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>{trip?.name}</Text>
       <Image source={{ uri: trip?.img }} style={styles.image} />
       <View style={styles.infoContainer}>
         <Text style={styles.description}>City: {trip?.city}</Text>

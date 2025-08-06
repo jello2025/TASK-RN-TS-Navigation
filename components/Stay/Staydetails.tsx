@@ -7,7 +7,6 @@ const StayDetails = () => {
   const stay = stays[0];
   return (
     <View style={styles.container}>
-      <Text style={styles.name}>{stay?.name}</Text>
       <Image source={{ uri: stay?.img }} style={styles.image} />
       <Text style={styles.text}>Location: {stay?.location}</Text>
       <Text style={styles.text}>Price: ${stay?.price} / night</Text>
