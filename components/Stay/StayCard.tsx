@@ -1,6 +1,7 @@
 import { Image, StyleSheet, Text, View } from "react-native";
 import React from "react";
-
+import { TouchableOpacity } from "react-native";
+import { router } from "expo-router";
 interface StayCardProps {
   stay: {
     id: number;
@@ -14,7 +15,16 @@ interface StayCardProps {
 const StayCard = ({ stay }: StayCardProps) => {
   return (
     <View style={styles.container}>
-      <Image source={{ uri: stay.img }} style={styles.image} />
+      <TouchableOpacity
+        onPress={() =>
+          router.push({
+            pathname: "/stay-details",
+            params: { id: stay.id },
+          })
+        }
+      >
+        <Image source={{ uri: stay.img }} style={styles.image} />
+      </TouchableOpacity>
     </View>
   );
 };

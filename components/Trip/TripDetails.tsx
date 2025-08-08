@@ -1,10 +1,11 @@
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
-
+import { useLocalSearchParams } from "expo-router";
 import trips from "@/data/trips";
 
 const TripDetails = () => {
-  const trip = trips[0];
+  const { slug } = useLocalSearchParams();
+  const trip = trips.find((trip) => trip.slug === slug);
   return (
     <View style={styles.container}>
       <Image source={{ uri: trip?.img }} style={styles.image} />
